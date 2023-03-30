@@ -6,6 +6,7 @@ body{
 
 header{
     background-color: #8b0000;
+    color: #fff;
     text-align: center;
     padding: 10px;
 }
@@ -20,6 +21,7 @@ nav ul{
     margin: 0;
     padding: 0;
 }
+
 nav li{
     display: inline-block;
     margin-right: 10px;
@@ -45,6 +47,7 @@ section{
     padding: 20px;
     background-color: #ffb6c1;
 }
+
 section h2{
     margin-top: 0;
 }
@@ -54,4 +57,19 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+#bicicletas-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.bicicleta{
+    width: 100%;
+}
+
+.bicicleta img{
+    width: 100%;
+    object-fit: cover;
 }
